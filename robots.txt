@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://StaryMoon.github.io/al-folio/sitemap.xml
+Sitemap: https://StaryMoon.github.io/sitemap.xml
