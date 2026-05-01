@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Speedcraft Notes - Minghao Liu</title>
+    <meta
+      name="description"
+      content="Minghao Liu's notes on niche dexterity games, clicking speed, mechanical puzzles, and algorithmic play."
+    >
+    <meta name="author" content="Minghao Liu">
+    <meta property="og:title" content="Speedcraft Notes - Minghao Liu">
+    <meta
+      property="og:description"
+      content="Hardcore notes on fast clicking, Nine Linked Rings, grid logic, and tiny games with real technique."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://starymoon.github.io/speedcraft.html">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://starymoon.github.io/speedcraft.html">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Minghao Liu homepage">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Minghao Liu</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html#research">Research</a>
+          <a href="index.html#publications">Publications</a>
+          <a href="index.html#honors">Honors</a>
+          <a href="speedcraft.html">Speedcraft</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero shell">
+        <a class="back-link" href="index.html">Back to homepage</a>
+        <p class="eyebrow">Speedcraft / Micro-Games / Mechanical Puzzles</p>
+        <h1>Speedcraft Notes</h1>
+        <p class="lede">
+          A small notebook for games and puzzles where the winning move is
+          half algorithm, half hand control. I like these tiny domains because
+          they reward the same habits as research: abstraction, error budgets,
+          precise experiments, and calm execution under time pressure.
+        </p>
+
+        <div class="achievement-strip" aria-label="Selected speedcraft achievements">
+          <article>
+            <span>Click Speed</span>
+            <h3>Former national Butterfly Clicking/CPS record holder</h3>
+            <p>
+              My favorite lesson from CPS training is that top speed is not
+              raw panic. It is a repeatable rhythm with relaxed recovery.
+            </p>
+          </article>
+          <article>
+            <span>Mechanical Puzzle</span>
+            <h3>National runner-up in Nine Linked Rings, 3:04 solve</h3>
+            <p>
+              The puzzle looks like hand dexterity, but the real advantage is
+              state compression: know the next legal move before your fingers ask.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell">
+        <div class="section-heading">
+          <p class="eyebrow">Hardcore Guides</p>
+          <h2>Small games, serious technique.</h2>
+        </div>
+
+        <div class="notes-grid">
+          <article class="note-card">
+            <span class="note-tag">Butterfly CPS</span>
+            <h2>Clean speed beats noisy speed.</h2>
+            <p>
+              The beginner mistake is trying to click harder. The better goal is
+              to make each burst boringly repeatable.
+            </p>
+            <ul>
+              <li>Train in 8-second windows: 3 seconds warm-up, 3 seconds peak, 2 seconds clean exit.</li>
+              <li>Keep wrist pressure low; the finger oscillation should feel springy, not forced.</li>
+              <li>Track three numbers: peak CPS, average CPS, and misclick drift. Peak without control is not skill.</li>
+              <li>Stop immediately if the forearm feels sharp or numb. Good speedcraft is sustainable speedcraft.</li>
+            </ul>
+            <span class="notation">Rule of thumb: if your last second collapses, the first second was too expensive.</span>
+          </article>
+
+          <article class="note-card">
+            <span class="note-tag">Nine Linked Rings</span>
+            <h2>Memorize states, not motions.</h2>
+            <p>
+              Nine Linked Rings is a tiny finite-state machine disguised as a
+              traditional puzzle. The fastest solves come from chunking legal
+              states rather than reacting ring by ring.
+            </p>
+            <ul>
+              <li>Use parity checkpoints: after each major block, know whether the next unlock depends on ring 1 or ring 2.</li>
+              <li>Practice the last five rings alone until the hand route is automatic.</li>
+              <li>Do not look at the ring you are moving; look one move ahead at the gate it enables.</li>
+              <li>Time splits by block, not by full solve. A bad middle split is easier to repair than a vague bad run.</li>
+            </ul>
+            <span class="notation">Fast route mindset: reduce visual search until the puzzle becomes a rhythm script.</span>
+          </article>
+
+          <article class="note-card">
+            <span class="note-tag">Minesweeper NF</span>
+            <h2>Play for information velocity.</h2>
+            <p>
+              No-flag Minesweeper is a pattern-recognition sprint. The best
+              runs are won by reducing hesitation between local proofs.
+            </p>
+            <ul>
+              <li>Favor openings that create long chord-like cascades, even if a nearby cell is locally tempting.</li>
+              <li>Learn the canonical 1-2, 1-2-1, 1-2-2-1, and edge 1-1 shapes until they are visual reflexes.</li>
+              <li>When stuck, scan borders clockwise once. Random eye jumps are the silent time sink.</li>
+              <li>Separate proof speed from mouse speed in training; otherwise you cannot see which one failed.</li>
+            </ul>
+            <span class="notation">The board is not solved cell by cell. It is solved frontier by frontier.</span>
+          </article>
+
+          <article class="note-card">
+            <span class="note-tag">SET / Visual Scan</span>
+            <h2>Turn perception into indexing.</h2>
+            <p>
+              In SET-like visual games, brute force scanning is fragile. A
+              reliable player converts the board into a few searchable axes.
+            </p>
+            <ul>
+              <li>Anchor by the rarest attribute first; rare colors or shapes reduce the candidate space fastest.</li>
+              <li>Scan triples by complement: for any two cards, the third card is determined.</li>
+              <li>Do not chase a half-seen pattern. If it does not resolve in one breath, reset to the anchor axis.</li>
+              <li>Practice with a metronome: decision quality under fixed rhythm matters more than raw staring time.</li>
+            </ul>
+            <span class="notation">Good visual search is not faster looking. It is fewer things worth looking at.</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <strong>Minghao Liu</strong>
+          <span>Peking University</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Homepage</a>
+          <a href="mailto:lmhlmh@stu.pku.edu.cn">lmhlmh@stu.pku.edu.cn</a>
+          <a href="https://github.com/StaryMoon" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

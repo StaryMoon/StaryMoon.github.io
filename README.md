@@ -9,6 +9,7 @@ on GitHub Pages.
 ## Structure
 
 - `index.html` - profile content, publications, honors, and contact links.
+- `speedcraft.html` - niche game and mechanical puzzle notes.
 - `styles.css` - visual system and responsive layout.
 - `script.js` - lightweight deraining-inspired canvas sketch.
 - `assets/minghao-liu.jpg` - profile image.
@@ -30,5 +31,6 @@ Most edits are in `index.html`:
 - Update publications in the `#publications` section.
 - Update awards in the `#honors` section.
 - Update links in the hero and footer.
+- Update niche game notes in `speedcraft.html`.
 
 No build step is required.

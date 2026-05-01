@@ -294,7 +294,7 @@ h3 {
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .metrics div {
@@ -396,6 +396,11 @@ h3 {
   padding: 28px;
 }
 
+.featured-pub {
+  border-color: rgba(0, 166, 184, 0.34);
+  box-shadow: 0 18px 44px rgba(0, 166, 184, 0.08);
+}
+
 .publication-card h3,
 .publication-card p,
 .publication-card .pub-links {
@@ -489,9 +494,101 @@ h3 {
   align-items: start;
 }
 
-.closing-grid p:last-child {
+.closing-grid p {
   color: var(--muted);
   font-size: 1.08rem;
+}
+
+.inline-link {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 166, 184, 0.28);
+  color: #007d8d;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.page-hero {
+  padding: 86px 0 58px;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-hero .lede {
+  max-width: 820px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-weight: 720;
+  text-decoration: none;
+}
+
+.achievement-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.achievement-strip article {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px;
+  background: #fff;
+}
+
+.achievement-strip span,
+.note-card .note-tag {
+  display: block;
+  margin-bottom: 8px;
+  color: #007d8d;
+  font-size: 0.78rem;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.note-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px;
+  background: #fff;
+}
+
+.note-card h2 {
+  margin-bottom: 14px;
+  font-size: 1.34rem;
+}
+
+.note-card p {
+  color: var(--muted);
+}
+
+.note-card ul {
+  margin: 18px 0 0;
+  padding-left: 20px;
+  color: #303842;
+}
+
+.note-card li + li {
+  margin-top: 10px;
+}
+
+.notation {
+  display: block;
+  margin-top: 16px;
+  border-left: 3px solid rgba(0, 166, 184, 0.42);
+  padding-left: 14px;
+  color: #303842;
+  font-size: 0.95rem;
 }
 
 .site-footer {
@@ -545,7 +642,9 @@ h3 {
   }
 
   .metrics,
-  .honor-timeline {
+  .honor-timeline,
+  .achievement-strip,
+  .notes-grid {
     grid-template-columns: 1fr;
   }
 
