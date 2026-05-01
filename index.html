@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minghao Liu - Peking University</title>
+    <meta
+      name="description"
+      content="Minghao Liu is a Ph.D. student at Peking University working on image restoration, deraining, and weather-robust visual perception."
+    >
+    <meta name="author" content="Minghao Liu">
+    <meta property="og:title" content="Minghao Liu - Peking University">
+    <meta
+      property="og:description"
+      content="Research in image restoration, deraining, and weather-robust visual perception."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://starymoon.github.io/">
+    <meta property="og:image" content="https://starymoon.github.io/assets/minghao-liu.jpg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://starymoon.github.io/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Minghao Liu",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Peking University"
+        },
+        "jobTitle": "Ph.D. student",
+        "email": "mailto:minghao13187@gmail.com",
+        "url": "https://starymoon.github.io/",
+        "sameAs": [
+          "https://github.com/StaryMoon",
+          "https://scholar.google.com/citations?user=qc6CJjYAAAAJ",
+          "https://dblp.org/pid/355/7664-19"
+        ],
+        "knowsAbout": [
+          "Image restoration",
+          "Image deraining",
+          "Weather-robust visual perception",
+          "Computer vision"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Minghao Liu homepage">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Minghao Liu</span>
+        </a>
+        <div class="nav-links">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#honors">Honors</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Peking University / Computer Vision / Derain</p>
+          <h1>Minghao Liu</h1>
+          <p class="lede">
+            I am a Ph.D. student in the School of Computer Science at Peking
+            University, advised by Prof. Jiaying Liu. My research studies image
+            restoration and weather-robust vision, with a focus on making visual
+            systems see clearly through rain and distribution shift.
+          </p>
+
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="mailto:lmhlmh@stu.pku.edu.cn">Email</a>
+            <a
+              class="button"
+              href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ"
+              target="_blank"
+              rel="noreferrer"
+            >Scholar</a>
+            <a
+              class="button"
+              href="https://github.com/StaryMoon"
+              target="_blank"
+              rel="noreferrer"
+            >GitHub</a>
+            <a
+              class="button"
+              href="https://dblp.org/pid/355/7664-19"
+              target="_blank"
+              rel="noreferrer"
+            >DBLP</a>
+          </div>
+
+          <div class="facts" aria-label="Profile snapshot">
+            <div>
+              <span class="fact-label">Research base</span>
+              <p>Wangxuan Institute of Computer Technology, Peking University</p>
+            </div>
+            <div>
+              <span class="fact-label">Education</span>
+              <p>B.S. in Computer Science, Turing Class, Peking University</p>
+            </div>
+            <div>
+              <span class="fact-label">Keywords</span>
+              <p>Deraining, continual restoration, prompt learning, robust perception</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="portrait">
+            <img src="assets/minghao-liu.jpg" alt="Portrait of Minghao Liu">
+            <figcaption>School of Computer Science, Peking University</figcaption>
+          </figure>
+          <div class="rain-lab" aria-hidden="true">
+            <canvas id="rainCanvas"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="metric-band" aria-label="Research snapshot">
+        <div class="shell metrics">
+          <div>
+            <strong>AAAI 2025</strong>
+            <span>Unified image restoration</span>
+          </div>
+          <div>
+            <strong>IJCAI 2023</strong>
+            <span>Continual image deraining</span>
+          </div>
+          <div>
+            <strong>ICME 2023</strong>
+            <span>Efficient video deraining</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Restoration models that adapt instead of forgetting.</h2>
+        </div>
+        <div class="research-grid">
+          <article class="research-card">
+            <span class="accent-line aqua"></span>
+            <h3>Continual Deraining</h3>
+            <p>
+              Compact prompt memories help a single model handle changing rain
+              distributions while preserving earlier knowledge.
+            </p>
+          </article>
+          <article class="research-card">
+            <span class="accent-line green"></span>
+            <h3>Efficient Video Restoration</h3>
+            <p>
+              Spatial-temporal distillation transfers stronger video reasoning
+              into lighter deraining models.
+            </p>
+          </article>
+          <article class="research-card">
+            <span class="accent-line gold"></span>
+            <h3>Unified Restoration</h3>
+            <p>
+              Unrolled optimization and prompt-driven adaptation provide a bridge
+              between classical priors and modern restoration networks.
+            </p>
+          </article>
+          <article class="research-card">
+            <span class="accent-line coral"></span>
+            <h3>Weather-Robust Perception</h3>
+            <p>
+              Domain adaptation improves segmentation and recognition when
+              weather corrupts the visual signal.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section publication-section" id="publications">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Publications</p>
+            <h2>Recent work on deraining and restoration.</h2>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication-card">
+              <div class="pub-meta">
+                <span>AAAI 2025</span>
+                <span>Image Restoration</span>
+              </div>
+              <h3>UP-Restorer: When Unrolling Meets Prompts for Unified Image Restoration</h3>
+              <p class="authors">
+                <strong>Minghao Liu</strong>, Wenhan Yang, Jinyi Luo, Jiaying Liu
+              </p>
+              <p>
+                A unified restoration framework that combines unrolled
+                optimization with prompt-driven adaptation.
+              </p>
+              <div class="pub-links">
+                <a href="https://doi.org/10.1609/aaai.v39i5.32587" target="_blank" rel="noreferrer">DOI</a>
+                <a href="https://dblp.org/rec/conf/aaai/LiuYL025" target="_blank" rel="noreferrer">DBLP</a>
+                <a href="https://github.com/StaryMoon/AAAI_2025_UpRestorer_git" target="_blank" rel="noreferrer">Code</a>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="pub-meta">
+                <span>IJCAI 2023</span>
+                <span>Continual Deraining</span>
+              </div>
+              <h3>Dual Prompt Learning for Continual Rain Removal from Single Images</h3>
+              <p class="authors">
+                <strong>Minghao Liu</strong>, Wenhan Yang, Yuzhang Hu, Jiaying Liu
+              </p>
+              <p>
+                A compact prompt-learning scheme for continual single-image
+                deraining under changing data distributions.
+              </p>
+              <div class="pub-links">
+                <a href="https://openreview.net/search?term=Dual%20Prompt%20Learning%20for%20Continual%20Rain%20Removal%20from%20Single%20Images" target="_blank" rel="noreferrer">OpenReview</a>
+                <a href="https://github.com/StaryMoon/DPL" target="_blank" rel="noreferrer">Code</a>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="pub-meta">
+                <span>ICME 2023</span>
+                <span>Video Deraining</span>
+              </div>
+              <h3>Collaborative Spatial-Temporal Distillation for Efficient Video Deraining</h3>
+              <p class="authors">
+                Yuzhang Hu, <strong>Minghao Liu</strong>, Wenhan Yang, Jiaying Liu, Zongming Guo
+              </p>
+              <p>
+                A teacher-student framework that distills spatial and temporal
+                structure for efficient video rain removal.
+              </p>
+              <div class="pub-links">
+                <a href="https://doi.org/10.1109/ICME55011.2023.00332" target="_blank" rel="noreferrer">DOI</a>
+                <a href="https://dblp.org/rec/conf/icmcs/HuLYLG23" target="_blank" rel="noreferrer">DBLP</a>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="pub-meta">
+                <span>ICME Workshops 2023</span>
+                <span>Robust Segmentation</span>
+              </div>
+              <h3>Comprehensive Augmented Domain Adaptation for Image Segmentation Under Rainy Conditions</h3>
+              <p class="authors">
+                <strong>Minghao Liu</strong>, Jiaxuan Xie, Yuzhang Hu, Wenhan Yang, Jiaying Liu
+              </p>
+              <p>
+                A weather-aware domain adaptation study for image segmentation
+                in rainy visual conditions.
+              </p>
+              <div class="pub-links">
+                <a href="https://doi.org/10.1109/ICMEW59549.2023.00017" target="_blank" rel="noreferrer">DOI</a>
+                <a href="https://dblp.org/rec/conf/icmcs/LiuXHY023" target="_blank" rel="noreferrer">DBLP</a>
+                <a href="https://github.com/StaryMoon/Comprehensive-Augmented-Domain-Adaptation-for-Image-Segmentation-Under-Rainy-Conditions" target="_blank" rel="noreferrer">Code</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="honors">
+        <div class="section-heading">
+          <p class="eyebrow">Honors</p>
+          <h2>Selected academic awards and distinctions.</h2>
+        </div>
+        <div class="honor-timeline">
+          <article>
+            <span>2025</span>
+            <h3>Outstanding Graduate Student, Wangxuan Institute of Computer Technology, Peking University</h3>
+          </article>
+          <article>
+            <span>2025</span>
+            <h3>Outstanding Graduate, Peking University</h3>
+          </article>
+          <article>
+            <span>2024</span>
+            <h3>Outstanding Undergraduate Research and Outstanding Undergraduate Thesis, Peking University</h3>
+          </article>
+          <article>
+            <span>2023</span>
+            <h3>First-Class Scholarship and Merit Student, Peking University</h3>
+          </article>
+          <article>
+            <span>2021-2022</span>
+            <h3>John Hopcroft Scholarship and Huawei Intelligent Foundation Scholarship</h3>
+          </article>
+          <article>
+            <span>2018-2019</span>
+            <h3>China Mathematical Olympiad Gold Medal and Silver Medal</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section closing-section">
+        <div class="shell closing-grid">
+          <div>
+            <p class="eyebrow">Beyond Papers</p>
+            <h2>I like research that can be explained, built, and shared.</h2>
+          </div>
+          <p>
+            Before and alongside research, I have spent a lot of time mentoring
+            students in mathematics and informatics. I enjoy turning difficult
+            ideas into clean visual explanations, small tools, and systems that
+            are easier to reason about.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="shell footer-grid">
+        <div>
+          <strong>Minghao Liu</strong>
+          <span>Peking University</span>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:lmhlmh@stu.pku.edu.cn">lmhlmh@stu.pku.edu.cn</a>
+          <a href="mailto:minghao13187@gmail.com">minghao13187@gmail.com</a>
+          <a href="https://github.com/StaryMoon" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
