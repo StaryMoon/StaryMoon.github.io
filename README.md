@@ -2,6 +2,12 @@
 
 Minimal academic homepage for Minghao Liu, Ph.D. student at Peking University.
 
+<p align="center">
+  <img src="assets/homepage-preview.png" width="860" alt="Minghao Liu homepage preview">
+</p>
+
+> Preview image source: the public GitHub Pages site at https://starymoon.github.io/.
+
 The site is intentionally plain HTML, CSS, and JavaScript. It replaces the old
 heavy Jekyll template with a small static page that is easy to maintain and fast
 on GitHub Pages.
